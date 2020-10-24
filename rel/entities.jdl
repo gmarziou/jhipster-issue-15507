@@ -1,0 +1,28 @@
+entity Products{
+    name String required
+    brand String required
+    quantity String required
+    messurement String
+    description String
+}
+
+entity ProductTypes{
+    productType String required
+    description String
+}
+
+relationship ManyToOne{
+    Products{productType} to ProductTypes
+}
+
+// Set pagination options
+paginate all with pagination
+
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
