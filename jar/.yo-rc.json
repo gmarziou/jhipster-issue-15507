@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.myapp",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "monolith",
+    "baseName": "jar",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2NmNmVjNzU0NjEwZmZjMjVlMzllZTZmZTQwMDZiNmVjNDg5NDBmZjE2NGRmZjZiYTE3YzA4OGM3MzZhMWRhYzdjMTM0MmNhMDg5ZTYwYjYyZGI5ZTNjNjdkMjU3OWRiMjkyOWVjODk1Y2ZlNmM2NWM1ZWQ5N2EwNDA3MGYyMDg=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1603809577533,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true
+  }
+}
