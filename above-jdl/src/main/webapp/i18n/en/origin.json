@@ -1,0 +1,25 @@
+{
+  "myApp": {
+    "origin": {
+      "home": {
+        "title": "Origins",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Origin",
+        "createOrEditLabel": "Create or edit a Origin",
+        "notFound": "No Origins found"
+      },
+      "created": "A new Origin is created with identifier {{ param }}",
+      "updated": "A Origin is updated with identifier {{ param }}",
+      "deleted": "A Origin is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Origin {{ id }}?"
+      },
+      "detail": {
+        "title": "Origin"
+      },
+      "id": "ID",
+      "name": "Name",
+      "product": "Product"
+    }
+  }
+}

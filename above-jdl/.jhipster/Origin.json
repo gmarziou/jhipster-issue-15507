@@ -1,0 +1,28 @@
+{
+  "name": "Origin",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "product",
+      "otherEntityRelationshipName": "origin",
+      "relationshipName": "product",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "origin",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["myApp"],
+  "changelogDate": "20210602183757"
+}

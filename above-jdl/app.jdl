@@ -1,0 +1,36 @@
+application {
+  config {
+    baseName myApp,
+    applicationType monolith,
+    packageName com.myapp,
+    authenticationType jwt,
+    prodDatabaseType postgresql,
+    clientFramework angular
+    enableSwaggerCodegen true
+  }
+  entities *
+}
+
+// One to One 
+entity Product { name String }
+entity Origin { name String}
+relationship OneToOne { Product to Origin }
+
+
+// Many to One 
+entity Rating { name String }
+entity Movie { name String }
+relationship ManyToOne { Rating to Movie }
+
+
+
+// One to Many
+entity Customer { name String }
+entity Address { name String  }
+relationship OneToMany {  Customer to Address }
+
+
+// Many to Many
+entity Car { name String }
+entity Owner { name String }
+relationship ManyToMany { Car to Owner }

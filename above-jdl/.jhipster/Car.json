@@ -1,0 +1,28 @@
+{
+  "name": "Car",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "owner",
+      "otherEntityRelationshipName": "car",
+      "relationshipName": "owner",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "car",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": ["myApp"],
+  "changelogDate": "20210602184257"
+}
