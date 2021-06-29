@@ -46,7 +46,7 @@ class AccountResourceIT {
     @Test
     @WithUnauthenticatedMockUser
     void testNonAuthenticatedUser() {
-        webTestClient
+        accountWebTestClient
             .get()
             .uri("/api/authenticate")
             .accept(MediaType.APPLICATION_JSON)
@@ -59,7 +59,7 @@ class AccountResourceIT {
 
     @Test
     void testAuthenticatedUser() {
-        webTestClient
+        accountWebTestClient
             .get()
             .uri("/api/authenticate")
             .accept(MediaType.APPLICATION_JSON)
