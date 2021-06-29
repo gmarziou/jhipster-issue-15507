@@ -1,6 +1,7 @@
 package com.gwa.web.rest;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
+import java.security.Principal;
 import java.util.Set;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
